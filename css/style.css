@@ -1,0 +1,30 @@
+@import url('reset.css');
+.container{
+    width: 1200px;
+    padding: 0 5px;
+    margin: 0 auto;
+    background: rgb(45, 43, 43);
+}
+
+.photo{
+    text-align: center;
+}
+
+.bloc{
+    text-align: justify;
+    padding: 10px 5px;
+    margin: 10px 5px;
+    color: red;
+    border: 5px groove brown;
+    
+}
+.bloc+.bloc>h2{
+    color: rgb(9, 249, 81);
+}
+#paragraf{
+    background: blue;
+    font-size: 18px;
+}
+div>div+div+div{
+    background: goldenrod;
+}
